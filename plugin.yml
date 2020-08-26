@@ -1,0 +1,35 @@
+name: BuildUHC
+api: 3.0.0
+version: 1.4.1
+main: BuildUHC\BuildUHC
+author: Alemiz, remastered by MrGalletaYTPM, Edit QuyNhatGaming
+description: BuildUHC Minigame
+
+depend:
+  - EconomyAPI
+permissions:
+  bu.cmd:
+    description: Permission to all BuildUHC commands
+    default: true
+    children:
+      bu.cmd.help:
+        description: Permission for /bu help
+        default: op
+      bu.cmd.create:
+        description: Permission for /bu create
+        default: op
+      bu.cmd.remove:
+        description: Permission for /bu remove
+        default: op
+      bu.cmd.set:
+        description: Permission for /bu set
+        default: op
+      bu.cmd.arenas:
+        description: Permission for /bu arenas
+        default: op
+      bu.cmd.join:
+        description: Permission for /bu join
+        default: true
+      bu.cmd.joiner:
+        description: Permission for /bu joiner
+        default: op
